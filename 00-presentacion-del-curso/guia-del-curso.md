@@ -1,1 +1,449 @@
+# Guía del Curso
 
+## Algoritmia y Programación para Ingeniería de Sistemas
+Bienvenido al curso de **Algoritmia y Programación**, una asignatura fundamental para personas que quieren aprender a programar. Este curso tiene como propósito desarrollar la capacidad de analizar problemas, diseñar soluciones lógicas y construir programas básicos utilizando pseudocódigo, PSeInt y Java.
+
+Antes de aprender a programar en un lenguaje como Java, es necesario aprender a pensar como programador. Esto significa observar un problema, comprenderlo, dividirlo en partes más pequeñas, identificar los datos necesarios y proponer una solución ordenada.
+
+---
+
+## 1. ¿Por qué es importante este curso?
+La algoritmia es una de las bases más importantes de la programación. Un estudiante puede aprender la sintaxis de un lenguaje, memorizar comandos o copiar ejemplos, pero si no desarrolla lógica algorítmica, tendrá dificultades para resolver problemas nuevos. Por eso, este curso no se centra únicamente en escribir código. Su objetivo principal es que el estudiante aprenda a:
+
+* Comprender problemas.
+* Identificar datos de entrada.
+* Definir procesos.
+* Obtener resultados.
+* Diseñar algoritmos.
+* Probar soluciones.
+* Implementar programas en Java.
+* Explicar cómo funciona una solución.
+
+En palabras sencillas: este curso enseña a pensar antes de programar.
+
+---
+
+## 2. ¿Qué es un algoritmo?
+Un **algoritmo** es una secuencia ordenada de pasos que permite resolver un problema.
+
+Ejemplo cotidiano:
+
+Problema: preparar un café.
+
+Algoritmo:
+1. Tomar una taza.
+2. Calentar agua.
+3. Agregar café.
+4. Agregar azúcar si se desea.
+5. Mezclar.
+6. Servir.
+
+Si los pasos están bien organizados, se obtiene el resultado esperado. En programación ocurre lo mismo. Para resolver un problema con un computador, primero debemos definir claramente los pasos que debe seguir.
+
+---
+
+## 3. Ejemplo básico de algoritmo
+
+Problema: calcular el área de un rectángulo.
+
+Para resolver este problema debemos saber que:
+
+```text
+Área = base * altura
+```
+
+### Análisis del problema
+
+| Elemento | Descripción                  |
+| -------- | ---------------------------- |
+| Entrada  | Base y altura del rectángulo |
+| Proceso  | Multiplicar base por altura  |
+| Salida   | Área del rectángulo          |
+
+### Algoritmo en lenguaje natural
+
+1. Pedir la base del rectángulo.
+2. Pedir la altura del rectángulo.
+3. Multiplicar la base por la altura.
+4. Mostrar el resultado.
+
+### Pseudocódigo en PSeInt
+
+```pseint
+Algoritmo AreaRectangulo
+    Definir base, altura, area Como Real
+
+    Escribir "Ingrese la base del rectángulo:"
+    Leer base
+
+    Escribir "Ingrese la altura del rectángulo:"
+    Leer altura
+
+    area <- base * altura
+
+    Escribir "El área del rectángulo es: ", area
+FinAlgoritmo
+```
+
+### Código en Java
+
+```java
+import java.util.Scanner;
+
+public class AreaRectangulo {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        double base;
+        double altura;
+        double area;
+
+        System.out.print("Ingrese la base del rectángulo: ");
+        base = entrada.nextDouble();
+
+        System.out.print("Ingrese la altura del rectángulo: ");
+        altura = entrada.nextDouble();
+
+        area = base * altura;
+
+        System.out.println("El área del rectángulo es: " + area);
+
+        entrada.close();
+    }
+}
+```
+
+---
+
+## 4. ¿Qué aprenderá el estudiante?
+Al finalizar el curso, el estudiante estará en capacidad de:
+
+* Comprender los fundamentos de la algoritmia.
+* Analizar problemas usando entradas, procesos y salidas.
+* Diseñar algoritmos en lenguaje natural y pseudocódigo.
+* Representar soluciones mediante diagramas de flujo.
+* Realizar pruebas de escritorio.
+* Usar variables, constantes, tipos de datos y operadores.
+* Aplicar condicionales para tomar decisiones.
+* Aplicar ciclos para repetir instrucciones.
+* Usar funciones, procedimientos y métodos.
+* Trabajar con arreglos y matrices.
+* Implementar algoritmos en Java.
+* Utilizar estructuras como `ArrayList`.
+* Comprender algoritmos de búsqueda y ordenamiento.
+* Usar Git y GitHub para publicar ejercicios y proyectos.
+* Comprender los fundamentos de la Programación Orientada a Objetos.
+
+---
+
+## 5. Lenguajes y herramientas del curso
+Durante el curso se trabajará con las siguientes herramientas:
+
+| Herramienta        | Uso principal                                                          |
+| ------------------ | ---------------------------------------------------------------------- |
+| Pseudocódigo       | Diseñar soluciones sin preocuparse por la sintaxis de un lenguaje real |
+| PSeInt             | Ejecutar algoritmos en pseudocódigo                                    |
+| Diagramas de flujo | Representar gráficamente la lógica de un algoritmo                     |
+| Java               | Implementar programas reales                                           |
+| Git                | Controlar versiones del código                                         |
+| GitHub             | Publicar ejercicios, talleres y proyectos                              |
+
+---
+
+## 6. Diferencia entre pseudocódigo y Java
+El **pseudocódigo** es una forma de escribir algoritmos usando instrucciones cercanas al lenguaje humano.
+
+Ejemplo:
+
+```pseint
+Escribir "Ingrese su nombre"
+Leer nombre
+```
+
+Java es un lenguaje de programación real, con reglas más estrictas.
+
+Ejemplo:
+
+```java
+System.out.print("Ingrese su nombre: ");
+nombre = entrada.nextLine();
+```
+
+### Explicación sencilla
+El pseudocódigo sirve para aprender la lógica. Java sirve para construir programas que puede ejecutar un computador. Primero se aprende a pensar la solución. Después se aprende a escribirla correctamente en Java.
+
+---
+
+## 7. Metodología del curso
+Cada tema del curso se desarrollará siguiendo una ruta progresiva.
+
+### 7.1. Introducción conceptual
+Primero se explica el concepto principal del tema.
+
+Ejemplo:
+
+Antes de usar un ciclo, se explica qué significa repetir instrucciones y en qué situaciones se necesita.
+
+---
+
+### 7.2. Análisis del problema
+Todo ejercicio debe iniciar con una pregunta:
+
+¿Qué problema se quiere resolver?
+
+Luego se identifican:
+
+* Entradas.
+* Procesos.
+* Salidas.
+
+Ejemplo:
+
+Problema: calcular el promedio de tres notas.
+
+| Elemento | Descripción                       |
+| -------- | --------------------------------- |
+| Entrada  | nota1, nota2, nota3               |
+| Proceso  | sumar las notas y dividir entre 3 |
+| Salida   | promedio                          |
+
+---
+
+### 7.3. Diseño del algoritmo
+Después del análisis, se diseña la solución usando lenguaje natural, pseudocódigo o diagrama de flujo. Esto permite organizar las ideas antes de programar.
+
+---
+
+### 7.4. Prueba de escritorio
+La prueba de escritorio consiste en revisar manualmente el algoritmo usando valores de ejemplo. Sirve para comprobar si la lógica funciona antes de escribir código en Java.
+
+Ejemplo:
+
+| nota1 | nota2 | nota3 | promedio |
+| ----: | ----: | ----: | -------: |
+|   4.0 |   3.5 |   5.0 |     4.16 |
+
+---
+
+### 7.5. Implementación en Java
+Cuando la lógica ya está clara, se pasa el algoritmo a Java. En esta parte se aplican reglas de sintaxis, tipos de datos, entrada y salida, condicionales, ciclos, métodos y demás estructuras del lenguaje.
+
+---
+
+### 7.6. Ejercicios y retos
+Cada unidad tendrá ejercicios para practicar. Los ejercicios estarán organizados en niveles:
+
+| Nivel      | Descripción                                      |
+| ---------- | ------------------------------------------------ |
+| Básico     | Permite comprender el concepto principal         |
+| Intermedio | Combina dos o más conceptos                      |
+| Aplicado   | Presenta problemas cercanos a situaciones reales |
+| Reto       | Exige mayor análisis y autonomía                 |
+
+---
+
+## 8. Ruta general de aprendizaje
+El curso se desarrollará de forma gradual.
+
+```text
+Lógica básica
+    ↓
+Pseudocódigo
+    ↓
+Diagramas de flujo
+    ↓
+Prueba de escritorio
+    ↓
+Java básico
+    ↓
+Condicionales
+    ↓
+Ciclos
+    ↓
+Arreglos y matrices
+    ↓
+Métodos
+    ↓
+ArrayList
+    ↓
+Búsqueda y ordenamiento
+    ↓
+Git y GitHub
+    ↓
+Programación Orientada a Objetos
+    ↓
+Proyecto final
+```
+
+---
+
+## 9. Estructura sugerida para estudiar cada unidad
+Cada unidad del repositorio se recomienda trabajar en el siguiente orden:
+
+1. Leer la teoría.
+2. Revisar los conceptos clave.
+3. Analizar los ejemplos.
+4. Ejecutar los ejemplos en PSeInt.
+5. Realizar la prueba de escritorio.
+6. Revisar la versión en Java.
+7. Ejecutar el código en el computador.
+8. Modificar el ejemplo.
+9. Resolver los ejercicios propuestos.
+10. Subir las soluciones a GitHub.
+
+---
+
+## 10. Convenciones del curso
+Para mantener orden en los ejercicios y proyectos, se recomienda seguir estas convenciones.
+
+### 10.1. Nombres de archivos
+Los archivos deben escribirse en minúscula y separados por guiones.
+
+Ejemplos:
+
+```text
+promedio-notas.md
+ejercicio-condicionales.md
+guia-ciclos.md
+```
+
+---
+
+### 10.2. Nombres de clases en Java
+Las clases en Java deben usar la convención `PascalCase`.
+
+Ejemplos:
+
+```java
+public class PromedioNotas {
+}
+```
+
+```java
+public class CalcularAreaRectangulo {
+}
+```
+
+Esto significa que cada palabra inicia con mayúscula y no se usan espacios.
+
+---
+
+### 10.3. Nombres de variables en Java
+Las variables deben usar la convención `camelCase`.
+
+Ejemplos:
+
+```java
+double notaFinal;
+int cantidadEstudiantes;
+String nombreCompleto;
+```
+
+Esto significa que la primera palabra inicia en minúscula y las siguientes palabras inician con mayúscula.
+
+---
+
+### 10.4. Comentarios en el código
+Los comentarios permiten explicar partes importantes del programa.
+
+Ejemplo:
+
+```java
+// Se calcula el promedio sumando las tres notas y dividiendo entre 3
+promedio = (nota1 + nota2 + nota3) / 3;
+```
+
+Un buen comentario no debe repetir lo obvio. Debe explicar la intención de una parte importante del código.
+
+---
+
+## 11. Responsabilidades del estudiante
+El estudiante debe asumir un rol activo en su aprendizaje. Durante el curso se espera que:
+
+* Asista a clase.
+* Revise el material del repositorio.
+* Practique constantemente.
+* Realice los talleres.
+* Pregunte cuando tenga dudas.
+* Desarrolle sus propias soluciones.
+* Evite copiar código sin entenderlo.
+* Suba sus avances a GitHub.
+* Presente sus ejercicios de forma ordenada.
+* Explique la lógica de sus programas.
+
+---
+
+## 12. Responsabilidades del docente
+El docente orientará el proceso de aprendizaje mediante:
+
+* Explicación de conceptos.
+* Desarrollo de ejemplos.
+* Acompañamiento en ejercicios.
+* Revisión de dudas.
+* Propuesta de talleres.
+* Retroalimentación de errores.
+* Orientación en el uso de Java.
+* Orientación en el uso de Git y GitHub.
+* Evaluación del proceso formativo.
+
+---
+
+## 13. Evaluación del curso
+La evaluación estará orientada a verificar si el estudiante comprende, diseña e implementa soluciones algorítmicas. Se podrán utilizar los siguientes instrumentos:
+
+* Talleres.
+* Quices.
+* Laboratorios.
+* Ejercicios en clase.
+* Ejercicios independientes.
+* Parciales.
+* Exposiciones.
+* Proyecto final.
+* Sustentaciones.
+
+No se evaluará únicamente si el programa funciona. También se tendrá en cuenta:
+
+* Análisis del problema.
+* Claridad del algoritmo.
+* Uso adecuado de variables.
+* Correcta aplicación de condicionales y ciclos.
+* Orden del código.
+* Explicación de la solución.
+* Prueba de escritorio.
+* Buenas prácticas de programación.
+
+---
+
+## 14. Proyecto final
+El proyecto final será una actividad integradora donde el estudiante aplicará los principales temas del curso. El proyecto debe incluir, como mínimo:
+
+* Menú interactivo.
+* Entrada y salida de datos.
+* Variables.
+* Condicionales.
+* Ciclos.
+* Arreglos o `ArrayList`.
+* Métodos.
+* Clases y objetos.
+* Validación básica de información.
+* Repositorio en GitHub.
+* README propio del proyecto.
+
+Ejemplos de proyectos:
+
+* Sistema de notas.
+* Agenda de contactos.
+* Sistema de inventario.
+* Sistema de biblioteca.
+* Registro de ventas.
+* Control de asistencia.
+* Sistema de turnos.
+
+---
+
+## 15. Recomendación final
+Programar no se aprende únicamente leyendo. Se aprende practicando. Es normal equivocarse, tener errores de sintaxis, confundirse con un ciclo o no entender un mensaje del compilador al inicio. El error hace parte del proceso.
+
+Lo importante es aprender a revisar, corregir, preguntar y volver a intentar.
+
+La meta del curso no es que el estudiante memorice código, sino que aprenda a construir soluciones lógicas, ordenadas y funcionales.
