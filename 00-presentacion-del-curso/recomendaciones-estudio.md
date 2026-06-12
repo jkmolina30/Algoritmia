@@ -1,1 +1,452 @@
+# Recomendaciones de Estudio
 
+## Algoritmia y Programación
+Aprender a programar es un proceso gradual. No se logra únicamente leyendo teoría o copiando código. Se aprende practicando, equivocándose, corrigiendo y explicando las soluciones con palabras propias. Este documento presenta recomendaciones para estudiar de manera efectiva durante el curso de Algoritmia y Programación.
+
+---
+
+## 1. Comprender antes de programar
+Uno de los errores más comunes al iniciar en programación es abrir el editor de código y empezar a escribir sin haber entendido el problema. Antes de programar, siempre se debe responder:
+
+* ¿Qué me están pidiendo?
+* ¿Qué datos necesito?
+* ¿Qué operaciones debo realizar?
+* ¿Qué resultado debo mostrar?
+* ¿Qué condiciones debo tener en cuenta?
+* ¿Cómo puedo comprobar si mi solución funciona?
+
+Programar sin analizar es como intentar construir una casa sin plano.
+
+---
+
+## 2. Usar la estrategia Entrada - Proceso - Salida
+Todo problema algorítmico puede analizarse usando tres elementos:
+
+| Elemento | Pregunta clave                               |
+| -------- | -------------------------------------------- |
+| Entrada  | ¿Qué datos necesito recibir?                 |
+| Proceso  | ¿Qué operaciones o decisiones debo realizar? |
+| Salida   | ¿Qué resultado debo mostrar?                 |
+
+### Ejemplo
+
+Problema: calcular el promedio de tres notas.
+
+| Elemento | Análisis                               |
+| -------- | -------------------------------------- |
+| Entrada  | nota1, nota2, nota3                    |
+| Proceso  | sumar las tres notas y dividir entre 3 |
+| Salida   | promedio final                         |
+
+Después de hacer este análisis, el código será mucho más fácil de escribir.
+
+---
+
+## 3. No memorizar código sin entenderlo
+Memorizar código puede servir para recordar algunas estructuras básicas, pero no es suficiente para aprender a programar. El estudiante debe preguntarse:
+
+* ¿Para qué sirve esta línea?
+* ¿Qué pasa si cambio este valor?
+* ¿Qué ocurre si la condición no se cumple?
+* ¿Cuántas veces se repite este ciclo?
+* ¿Qué datos guarda esta variable?
+
+Cuando se entiende la lógica, se puede resolver un problema similar aunque cambie el enunciado.
+
+---
+
+## 4. Practicar con lápiz y papel
+Aunque la programación se realiza en el computador, muchas veces es útil resolver primero el problema en una hoja. Se recomienda usar lápiz y papel para:
+
+* Hacer el análisis de entrada, proceso y salida.
+* Diseñar el pseudocódigo.
+* Dibujar diagramas de flujo.
+* Realizar pruebas de escritorio.
+* Simular el comportamiento de ciclos.
+* Revisar valores de variables.
+
+Esto ayuda a desarrollar lógica antes de depender del computador.
+
+---
+
+## 5. Realizar pruebas de escritorio
+La prueba de escritorio consiste en ejecutar mentalmente un algoritmo usando datos de ejemplo. Sirve para revisar si la solución es correcta antes de pasarla a Java.
+
+### Ejemplo
+Algoritmo: sumar los números del 1 al 5.
+
+Variables:
+
+```text
+i = contador
+suma = acumulador
+```
+
+Prueba de escritorio:
+
+| Iteración |  i | suma |
+| --------: | -: | ---: |
+|    Inicio |  - |    0 |
+|         1 |  1 |    1 |
+|         2 |  2 |    3 |
+|         3 |  3 |    6 |
+|         4 |  4 |   10 |
+|         5 |  5 |   15 |
+
+Resultado final:
+
+```text
+La suma es 15
+```
+
+Si la prueba de escritorio no funciona, el código probablemente tampoco funcionará.
+
+---
+
+## 6. Estudiar por pasos
+No se recomienda intentar aprender todo al mismo tiempo. La ruta sugerida es:
+
+```text
+1. Entender el problema
+2. Identificar entradas, procesos y salidas
+3. Escribir la solución en lenguaje natural
+4. Pasar la solución a pseudocódigo
+5. Hacer prueba de escritorio
+6. Implementar en Java
+7. Ejecutar el programa
+8. Corregir errores
+9. Probar con diferentes datos
+10. Explicar la solución
+```
+
+Esta ruta permite avanzar de forma ordenada.
+
+---
+
+## 7. Leer los mensajes de error
+Los errores son normales en programación. Un error no significa que el estudiante no sabe. Significa que el programa encontró algo que debe corregirse.
+
+### Tipos comunes de errores
+
+| Tipo de error      | Explicación sencilla                                     |
+| ------------------ | -------------------------------------------------------- |
+| Error de sintaxis  | El código está mal escrito según las reglas del lenguaje |
+| Error lógico       | El programa ejecuta, pero el resultado es incorrecto     |
+| Error de ejecución | El programa se detiene mientras está funcionando         |
+
+### Ejemplo de error de sintaxis
+
+Código incorrecto:
+
+```java
+System.out.println("Hola mundo")
+```
+
+Problema:
+
+Falta el punto y coma al final.
+
+Código correcto:
+
+```java
+System.out.println("Hola mundo");
+```
+
+---
+
+## 8. No tener miedo a equivocarse
+Equivocarse hace parte del aprendizaje. En programación, incluso los profesionales cometen errores. La diferencia está en que aprenden a leer el error, buscar la causa y corregirlo. Cada error debe verse como una oportunidad para aprender.
+
+---
+
+## 9. Practicar todos los días
+Es mejor practicar 30 minutos diarios que estudiar muchas horas solo antes del parcial.La programación requiere continuidad.
+
+Recomendación semanal:
+
+| Día       | Actividad sugerida              |
+| --------- | ------------------------------- |
+| Lunes     | Leer teoría del tema            |
+| Martes    | Revisar ejemplos                |
+| Miércoles | Resolver ejercicios básicos     |
+| Jueves    | Resolver ejercicios intermedios |
+| Viernes   | Implementar en Java             |
+| Sábado    | Subir avances a GitHub          |
+| Domingo   | Repasar errores y dudas         |
+
+---
+
+## 10. Modificar los ejemplos
+No basta con copiar y ejecutar un ejemplo. Después de ejecutarlo, se recomienda modificarlo.
+
+Ejemplo:
+
+Si el programa calcula el promedio de tres notas, modificarlo para:
+
+* Calcular el promedio de cinco notas.
+* Indicar si el estudiante aprueba o reprueba.
+* Validar que las notas estén entre 0.0 y 5.0.
+* Mostrar un mensaje según el desempeño.
+
+Modificar ejemplos ayuda a comprobar si realmente se entendió.
+
+---
+
+## 11. Explicar el código con palabras propias
+Una buena forma de estudiar es explicar el código como si se estuviera enseñando a otra persona.
+
+Por ejemplo:
+
+```java
+if (nota >= 3.0) {
+    System.out.println("Aprobó");
+}
+```
+
+Explicación:
+
+El programa revisa si la nota es mayor o igual a 3.0. Si la condición se cumple, muestra el mensaje "Aprobó".
+
+Si el estudiante puede explicar el código, probablemente lo entiende.
+
+---
+
+## 12. Organizar los archivos
+El desorden dificulta el aprendizaje. Se recomienda organizar los ejercicios por carpetas.
+
+Ejemplo:
+
+```text
+ejercicios/
+├── unidad-01-introduccion/
+├── unidad-02-variables/
+├── unidad-03-condicionales/
+├── unidad-04-ciclos/
+├── unidad-05-arreglos/
+└── unidad-06-metodos/
+```
+
+Cada archivo debe tener un nombre claro.
+
+Ejemplos:
+
+```text
+promedio-notas.java
+numero-mayor.java
+tabla-multiplicar.java
+suma-arreglo.java
+```
+
+---
+
+## 13. Usar nombres claros para variables
+Los nombres de variables deben indicar qué dato almacenan. Mala práctica:
+
+```java
+double x;
+double y;
+double z;
+```
+
+Buena práctica:
+
+```java
+double nota1;
+double nota2;
+double promedio;
+```
+
+Cuando los nombres son claros, el código es más fácil de leer.
+
+---
+
+## 14. Cuidar la indentación
+La indentación es el espacio que se deja al inicio de una línea para mostrar que pertenece a una estructura. Código desordenado:
+
+```java
+if (edad >= 18) {
+System.out.println("Mayor de edad");
+} else {
+System.out.println("Menor de edad");
+}
+```
+
+Código ordenado:
+
+```java
+if (edad >= 18) {
+    System.out.println("Mayor de edad");
+} else {
+    System.out.println("Menor de edad");
+}
+```
+
+El segundo código es más fácil de leer y corregir.
+
+---
+
+## 15. Hacer preguntas concretas
+Cuando se tenga una duda, es mejor hacer una pregunta clara. Pregunta poco clara:
+
+```text
+Profe, no entiendo nada.
+```
+
+Pregunta más útil:
+
+```text
+Profe, no entiendo por qué el ciclo while no se detiene cuando la variable contador llega a 10.
+```
+
+Pregunta aún mejor:
+
+```text
+Profe, este es mi código. Esperaba que imprimiera los números del 1 al 10, pero se queda en ciclo infinito. Creo que el problema está en el incremento del contador.
+```
+
+Mientras más precisa sea la pregunta, más fácil será recibir ayuda.
+
+---
+
+## 16. Usar GitHub de forma constante
+GitHub no debe usarse solo al final del curso. Se recomienda subir avances frecuentemente.
+
+Ejemplo de flujo:
+
+```bash
+git status
+git add .
+git commit -m "Agrego ejercicios de ciclo for"
+git push
+```
+
+Esto permite mantener un historial del trabajo realizado.
+
+---
+
+## 17. Evitar copiar soluciones sin comprender
+Copiar una solución puede dar la impresión de avanzar, pero no desarrolla la lógica. Si se consulta una solución, se recomienda:
+
+1. Leerla.
+2. Ejecutarla.
+3. Explicarla línea por línea.
+4. Cerrarla.
+5. Intentar resolver el ejercicio nuevamente sin mirar.
+6. Comparar la nueva solución con la anterior.
+
+---
+
+## 18. Uso responsable de herramientas de inteligencia artificial
+Las herramientas de inteligencia artificial pueden ser útiles para estudiar, pero deben usarse de forma responsable.cUso adecuado:
+
+* Pedir explicación de un concepto.
+* Solicitar ejemplos similares.
+* Pedir que se explique un error.
+* Comparar dos soluciones.
+* Solicitar ejercicios de práctica.
+* Pedir retroalimentación sobre un código propio.
+
+Uso inadecuado:
+
+* Copiar respuestas sin entender.
+* Entregar código generado sin revisarlo.
+* No hacer prueba de escritorio.
+* No poder explicar la solución.
+* Usar la herramienta para evitar pensar.
+
+La regla principal es:
+
+```text
+Si no puedes explicar el código, todavía no es tu solución.
+```
+
+---
+
+## 19. Preparación para talleres y parciales
+Antes de un taller o parcial, se recomienda revisar:
+
+* Conceptos principales.
+* Ejercicios resueltos.
+* Pruebas de escritorio.
+* Errores corregidos.
+* Ejercicios propuestos.
+* Programas implementados en Java.
+* Comandos básicos de Git si aplica.
+
+También se recomienda practicar sin mirar la solución.
+
+---
+
+## 20. Cómo repasar un tema
+Para repasar un tema como condicionales, ciclos o arreglos, se puede seguir esta estrategia:
+
+1. Leer la definición.
+2. Revisar un ejemplo básico.
+3. Explicar el ejemplo.
+4. Hacer una prueba de escritorio.
+5. Resolver un ejercicio parecido.
+6. Resolver un ejercicio diferente.
+7. Implementarlo en Java.
+8. Probar con varios datos.
+9. Corregir errores.
+10. Subir la solución a GitHub.
+
+---
+
+## 21. Checklist antes de entregar un ejercicio
+Antes de entregar un ejercicio, verificar:
+
+* [ ] Entendí el enunciado.
+* [ ] Identifiqué entradas, procesos y salidas.
+* [ ] Escribí el pseudocódigo.
+* [ ] Realicé prueba de escritorio.
+* [ ] Implementé el programa en Java.
+* [ ] El programa compila.
+* [ ] El programa ejecuta.
+* [ ] Probé con varios datos.
+* [ ] Usé nombres claros de variables.
+* [ ] El código está ordenado.
+* [ ] Puedo explicar mi solución.
+* [ ] Subí el archivo a GitHub si corresponde.
+
+---
+
+## 22. Recomendaciones para mejorar la lógica
+Para mejorar la lógica de programación se recomienda practicar ejercicios como:
+
+* Calcular áreas y perímetros.
+* Comparar números.
+* Validar edades.
+* Calcular promedios.
+* Determinar si un número es par o impar.
+* Generar tablas de multiplicar.
+* Sumar números dentro de un rango.
+* Contar elementos.
+* Buscar datos en arreglos.
+* Ordenar valores.
+* Crear menús interactivos.
+
+Estos ejercicios parecen sencillos, pero ayudan a construir bases sólidas.
+
+---
+
+## 23. Actitud recomendada
+Aprender programación requiere paciencia. Durante el curso es importante mantener una actitud de:
+
+* Disciplina.
+* Curiosidad.
+* Responsabilidad.
+* Orden.
+* Persistencia.
+* Trabajo colaborativo.
+* Honestidad académica.
+* Disposición para corregir errores.
+
+La lógica se fortalece con práctica constante.
+
+---
+
+## 24. Recomendación final
+El objetivo del curso no es que el estudiante escriba código perfecto desde el primer día. El objetivo es que aprenda a pensar de forma estructurada, analizar problemas y construir soluciones cada vez más claras. Cada ejercicio es una oportunidad para mejorar. Cada error es una oportunidad para aprender.
+
+Cada programa terminado es una evidencia de avance.
