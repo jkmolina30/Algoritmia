@@ -1,1 +1,619 @@
+# Instalación de Herramientas
 
+## Algoritmia y Programación
+Este documento explica las herramientas necesarias para desarrollar las actividades del curso de Algoritmia y Programación. Durante el curso se trabajará con pseudocódigo, PSeInt, Java, Git y GitHub. También se recomienda usar un editor de código para escribir, organizar y ejecutar los programas.
+
+---
+
+## 1. Herramientas necesarias
+Para trabajar correctamente en el curso se recomienda instalar o tener acceso a las siguientes herramientas:
+
+| Herramienta      | Uso                                                 |
+| ---------------- | --------------------------------------------------- |
+| PSeInt           | Crear y ejecutar algoritmos en pseudocódigo         |
+| Java JDK         | Compilar y ejecutar programas Java                  |
+| Editor de código | Escribir programas de forma ordenada                |
+| Git              | Controlar versiones del código                      |
+| GitHub           | Publicar ejercicios y proyectos                     |
+| Navegador web    | Consultar documentación y usar plataformas en línea |
+
+---
+
+## 2. Requisitos mínimos del equipo
+No se necesita un computador de alto rendimiento para iniciar en programación.
+
+Requisitos recomendados:
+
+* Sistema operativo Windows, Linux o macOS.
+* 4 GB de memoria RAM como mínimo.
+* Conexión a internet.
+* Espacio libre para instalar herramientas.
+* Navegador web actualizado.
+* Permisos para instalar programas.
+
+Si el estudiante no puede instalar herramientas en su computador, puede utilizar plataformas en línea como:
+
+* OnlineGDB.
+* Replit.
+* JDoodle.
+* Programiz Online Compiler.
+
+Sin embargo, se recomienda instalar las herramientas localmente para aprender de forma más completa.
+
+---
+
+## 3. Instalación de PSeInt
+
+PSeInt es una herramienta que permite escribir algoritmos en pseudocódigo.
+
+Es muy útil al inicio del curso porque permite concentrarse en la lógica del problema sin preocuparse demasiado por la sintaxis de un lenguaje de programación real.
+
+### 3.1. ¿Para qué sirve PSeInt?
+
+PSeInt sirve para:
+
+* Escribir algoritmos en pseudocódigo.
+* Ejecutar algoritmos.
+* Detectar errores básicos.
+* Ver diagramas de flujo.
+* Practicar condicionales.
+* Practicar ciclos.
+* Realizar pruebas iniciales de lógica.
+
+### 3.2. Pasos de instalación
+
+1. Ingresar al sitio oficial de PSeInt:
+```text
+https://pseint.sourceforge.net/
+```
+2. Descargar la versión correspondiente al sistema operativo.
+3. Ejecutar el instalador.
+4. Seguir los pasos del asistente de instalación.
+5. Abrir PSeInt.
+6. Crear un algoritmo de prueba.
+
+### 3.3. Primer algoritmo en PSeInt
+Abrir PSeInt y escribir:
+
+```pseint
+Algoritmo HolaMundo
+    Escribir "Hola, bienvenido al curso de Algoritmia"
+FinAlgoritmo
+```
+
+Luego hacer clic en ejecutar. Si aparece el mensaje en pantalla, PSeInt quedó funcionando correctamente.
+
+---
+
+## 4. Instalación de Java JDK
+Java es el lenguaje de programación que se usará para implementar los algoritmos del curso. Para programar en Java se necesita instalar el **JDK**.
+
+### 4.1. ¿Qué es el JDK?
+JDK significa **Java Development Kit**. En palabras sencillas, es el conjunto de herramientas que permite escribir, compilar y ejecutar programas en Java.
+
+Incluye herramientas como:
+
+| Herramienta        | Función                             |
+| ------------------ | ----------------------------------- |
+| `javac`            | Compila archivos `.java`            |
+| `java`             | Ejecuta programas compilados        |
+| Librerías estándar | Conjunto de clases listas para usar |
+
+### 4.2. Diferencia entre JDK y JRE
+
+| Concepto | Explicación sencilla               |
+| -------- | ---------------------------------- |
+| JDK      | Sirve para crear programas Java    |
+| JRE      | Sirve para ejecutar programas Java |
+
+Para este curso se necesita el **JDK**, porque el estudiante va a escribir y compilar programas.
+
+### 4.3. Descarga del JDK
+Se puede instalar Java desde alguna de las siguientes opciones:
+
+```text
+https://www.oracle.com/java/technologies/downloads/
+```
+
+```text
+https://adoptium.net/
+```
+
+Se recomienda instalar una versión reciente o una versión LTS. Una versión LTS es una versión con soporte a largo plazo. Esto significa que es estable y recomendada para uso académico y profesional.
+
+### 4.4. Verificar instalación de Java
+Después de instalar Java, abrir la terminal o consola.
+
+En Windows se puede usar:
+
+```text
+Símbolo del sistema
+```
+
+O también:
+
+```text
+PowerShell
+```
+
+Escribir el siguiente comando:
+
+```bash
+java -version
+```
+
+También verificar el compilador:
+
+```bash
+javac -version
+```
+
+Si ambos comandos muestran una versión instalada, Java quedó configurado correctamente.
+
+---
+
+## 5. Primer programa en Java
+Crear un archivo llamado:
+
+```text
+HolaMundo.java
+```
+
+Escribir el siguiente código:
+
+```java
+public class HolaMundo {
+    public static void main(String[] args) {
+        System.out.println("Hola, bienvenido al curso de Algoritmia y Programación");
+    }
+}
+```
+
+### 5.1. Explicación sencilla del código
+
+```java
+public class HolaMundo
+```
+
+Define una clase llamada `HolaMundo`.
+
+En Java, casi todo el código debe estar dentro de una clase.
+
+---
+
+```java
+public static void main(String[] args)
+```
+
+Es el método principal del programa.
+
+Cuando se ejecuta un programa Java, la ejecución inicia en el método `main`.
+
+---
+
+```java
+System.out.println()
+```
+
+Permite mostrar un mensaje en pantalla.
+
+---
+
+## 6. Compilar y ejecutar desde consola
+Ubicarse en la carpeta donde está el archivo `HolaMundo.java`.
+
+Compilar:
+
+```bash
+javac HolaMundo.java
+```
+
+Esto genera un archivo:
+
+```text
+HolaMundo.class
+```
+
+Ejecutar:
+
+```bash
+java HolaMundo
+```
+
+Si aparece el mensaje en pantalla, Java está funcionando correctamente.
+
+---
+
+## 7. Instalación de un editor de código
+Un editor de código permite escribir programas de forma más ordenada. Para este curso se puede utilizar cualquiera de estas opciones:
+
+* Visual Studio Code.
+* IntelliJ IDEA.
+* NetBeans.
+* Eclipse.
+* OnlineGDB.
+* Replit.
+
+---
+
+## 8. Visual Studio Code
+Visual Studio Code es un editor liviano y muy usado para programar.
+
+### 8.1. Descarga
+
+Ingresar a:
+
+```text
+https://code.visualstudio.com/
+```
+
+Descargar e instalar según el sistema operativo.
+
+### 8.2. Extensiones recomendadas
+Después de instalar Visual Studio Code, se recomienda instalar estas extensiones:
+
+* Extension Pack for Java.
+* Code Runner.
+* GitLens.
+* Markdown All in One.
+
+### 8.3. ¿Para qué sirve cada extensión?
+
+| Extensión               | Uso                                         |
+| ----------------------- | ------------------------------------------- |
+| Extension Pack for Java | Permite trabajar con proyectos Java         |
+| Code Runner             | Facilita ejecutar código rápidamente        |
+| GitLens                 | Mejora la visualización de cambios con Git  |
+| Markdown All in One     | Ayuda a escribir archivos `.md` para GitHub |
+
+---
+
+## 9. IntelliJ IDEA
+IntelliJ IDEA es un entorno de desarrollo muy completo para Java.
+
+### 9.1. Descarga
+
+Ingresar a:
+
+```text
+https://www.jetbrains.com/idea/
+```
+
+Se puede usar la versión Community, que es gratuita.
+
+### 9.2. ¿Cuándo usar IntelliJ IDEA?
+Se recomienda cuando el estudiante quiera trabajar proyectos Java más organizados. Es especialmente útil para:
+
+* Crear clases.
+* Organizar paquetes.
+* Ejecutar programas.
+* Detectar errores.
+* Trabajar con proyectos más grandes.
+
+---
+
+## 10. NetBeans
+NetBeans también es una buena opción para aprender Java.
+
+### 10.1. Descarga
+
+Ingresar a:
+
+```text
+https://netbeans.apache.org/
+```
+
+NetBeans permite crear proyectos Java con una interfaz sencilla.
+
+---
+
+## 11. Instalación de Git
+Git es una herramienta de control de versiones.
+
+### 11.1. ¿Qué significa control de versiones?
+Controlar versiones significa guardar el historial de cambios de un proyecto.
+
+Ejemplo:
+
+Un estudiante crea un programa el lunes.
+
+El martes corrige un error.
+
+El miércoles agrega una nueva función.
+
+Con Git, puede ver qué cambió cada día y recuperar versiones anteriores si algo sale mal.
+
+### 11.2. Descarga de Git
+
+Ingresar a:
+
+```text
+https://git-scm.com/
+```
+
+Descargar e instalar Git.
+
+Durante la instalación en Windows, se pueden dejar las opciones por defecto.
+
+### 11.3. Verificar instalación de Git
+Abrir la terminal y escribir:
+
+```bash
+git --version
+```
+
+Si aparece una versión de Git, la instalación fue correcta.
+
+---
+
+## 12. Configuración inicial de Git
+Después de instalar Git, se debe configurar el nombre y el correo.
+
+```bash
+git config --global user.name "Nombre Apellido"
+```
+
+```bash
+git config --global user.email "correo@ejemplo.com"
+```
+
+Ejemplo:
+
+```bash
+git config --global user.name "Juan Carlos Molina"
+git config --global user.email "jcmolina@unipacifico.edu.co"
+```
+
+Para verificar la configuración:
+
+```bash
+git config --global --list
+```
+
+---
+
+## 13. Creación de cuenta en GitHub
+GitHub permite publicar proyectos de programación en internet.
+
+### 13.1. Crear cuenta
+
+Ingresar a:
+
+```text
+https://github.com/
+```
+
+Crear una cuenta usando un correo electrónico.
+
+### 13.2. Recomendaciones para la cuenta
+
+* Usar un nombre de usuario serio.
+* Guardar bien la contraseña.
+* Verificar el correo electrónico.
+* Usar una foto o avatar adecuado.
+* Crear un perfil académico o profesional.
+
+---
+
+## 14. Crear el primer repositorio en GitHub
+
+1. Entrar a GitHub.
+2. Hacer clic en `New repository`.
+3. Escribir el nombre del repositorio.
+
+Ejemplo:
+
+```text
+algoritmia-java
+```
+
+4. Agregar una descripción.
+
+Ejemplo:
+
+```text
+Ejercicios del curso de Algoritmia y Programación
+```
+
+5. Marcar la opción `Add a README file`.
+
+6. Hacer clic en `Create repository`.
+
+---
+
+## 15. Comandos básicos de Git
+Los comandos principales que se usarán en el curso son:
+
+```bash
+git init
+```
+
+Inicializa un repositorio Git en una carpeta.
+
+---
+
+```bash
+git status
+```
+
+Muestra el estado de los archivos.
+
+---
+
+```bash
+git add .
+```
+
+Agrega todos los archivos modificados para ser guardados en el próximo commit.
+
+---
+
+```bash
+git commit -m "Mensaje del commit"
+```
+
+Guarda una versión del proyecto con un mensaje descriptivo.
+
+---
+
+```bash
+git remote add origin URL_DEL_REPOSITORIO
+```
+
+Conecta el proyecto local con un repositorio de GitHub.
+
+---
+
+```bash
+git push -u origin main
+```
+
+Sube los cambios a GitHub.
+
+---
+
+## 16. Flujo básico para subir ejercicios a GitHub
+Cuando el estudiante termine un ejercicio, puede usar este flujo:
+
+```bash
+git status
+git add .
+git commit -m "Agrego ejercicio de condicionales"
+git push
+```
+
+### Explicación sencilla
+
+| Comando      | Qué hace                          |
+| ------------ | --------------------------------- |
+| `git status` | Revisa qué archivos cambiaron     |
+| `git add .`  | Prepara los archivos para guardar |
+| `git commit` | Guarda una versión del trabajo    |
+| `git push`   | Sube el trabajo a GitHub          |
+
+---
+
+## 17. Instalación opcional de herramientas en línea
+Si el estudiante no puede instalar programas, puede usar herramientas en línea.
+
+### 17.1. OnlineGDB
+
+```text
+https://www.onlinegdb.com/
+```
+
+Permite escribir y ejecutar código Java desde el navegador.
+
+### 17.2. Replit
+
+```text
+https://replit.com/
+```
+
+Permite crear proyectos de programación en línea.
+
+### 17.3. Programiz Online Compiler
+
+```text
+https://www.programiz.com/java-programming/online-compiler/
+```
+
+Permite probar programas Java sencillos.
+
+---
+
+## 18. Problemas frecuentes y soluciones
+
+### Problema 1: `java` no se reconoce como comando
+Posible causa:
+
+Java no quedó agregado a las variables de entorno.
+
+Solución:
+
+* Verificar que el JDK esté instalado.
+* Revisar la variable `PATH`.
+* Reiniciar la terminal.
+* Reiniciar el computador si es necesario.
+
+---
+
+### Problema 2: `javac` no se reconoce como comando
+Posible causa:
+
+Se instaló solo el JRE o el JDK no está bien configurado.
+
+Solución:
+
+* Instalar el JDK.
+* Verificar la ruta de instalación.
+* Configurar la variable `PATH`.
+
+---
+
+### Problema 3: El archivo Java no ejecuta
+Posibles causas:
+
+* El nombre del archivo no coincide con el nombre de la clase.
+* Faltan llaves `{}`.
+* Falta el método `main`.
+* Hay errores de mayúsculas y minúsculas.
+
+Ejemplo correcto:
+
+Archivo:
+
+```text
+HolaMundo.java
+```
+
+Clase:
+
+```java
+public class HolaMundo {
+}
+```
+
+En Java, si la clase es pública, el archivo debe tener el mismo nombre que la clase.
+
+---
+
+### Problema 4: Error al hacer `git push`
+Posibles causas:
+
+* No se configuró el repositorio remoto.
+* No se inició sesión en GitHub.
+* No hay commits para subir.
+* La rama tiene otro nombre.
+
+Solución básica:
+
+```bash
+git status
+git remote -v
+git branch
+```
+
+Luego revisar el mensaje de error y corregir según el caso.
+
+---
+
+## 19. Lista de verificación final
+Antes de iniciar el curso, el estudiante debe verificar que tiene:
+
+* [ ] PSeInt instalado.
+* [ ] Java JDK instalado.
+* [ ] Comando `java -version` funcionando.
+* [ ] Comando `javac -version` funcionando.
+* [ ] Editor de código instalado.
+* [ ] Git instalado.
+* [ ] Comando `git --version` funcionando.
+* [ ] Cuenta de GitHub creada.
+* [ ] Primer repositorio creado.
+* [ ] Primer programa Java ejecutado.
+* [ ] Primer algoritmo en PSeInt ejecutado.
+
+---
+
+## 20. Recomendación final
+No es necesario dominar todas las herramientas desde el primer día. Lo importante es instalarlas, probarlas y familiarizarse poco a poco. Durante el curso se aprenderá a usarlas en contexto, resolviendo problemas reales de algoritmia y programación.
