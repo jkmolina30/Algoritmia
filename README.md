@@ -496,49 +496,38 @@ Para aprovechar este repositorio, se recomienda seguir este orden:
 ---
 
 ## Ejemplo de Ruta para Resolver un Problema
-
 Antes de escribir código, cada problema debe trabajarse siguiendo esta estructura:
 
 ### 1. Enunciado
-
 ¿Qué problema se desea resolver?
 
 ### 2. Análisis
-
 ¿Qué datos se necesitan?
 
 **Entradas:**
-
 Datos que el usuario debe ingresar.
 
 **Proceso:**
-
 Operaciones o decisiones necesarias para resolver el problema.
 
 **Salidas:**
-
 Resultado que debe mostrar el programa.
 
 ### 3. Diseño del algoritmo
-
 Representación de la solución mediante lenguaje natural, pseudocódigo o diagrama de flujo.
 
 ### 4. Prueba de escritorio
-
 Validación manual del algoritmo usando datos de prueba.
 
 ### 5. Implementación
-
 Traducción del algoritmo a Java.
 
 ### 6. Verificación
-
 Ejecución del programa y revisión de resultados.
 
 ---
 
 ## Evaluación Sugerida
-
 La evaluación del curso puede organizarse en tres cortes académicos:
 
 ### Primer Corte
@@ -603,11 +592,9 @@ La evaluación del curso puede organizarse en tres cortes académicos:
 ---
 
 ## Proyecto Final
-
 El proyecto final debe integrar los principales temas desarrollados en el curso.
 
 ### Requisitos mínimos
-
 El proyecto debe incluir:
 
 * Menú interactivo.
@@ -623,7 +610,6 @@ El proyecto debe incluir:
 * Sustentación del funcionamiento.
 
 ### Ideas de Proyecto
-
 * Sistema básico de registro de estudiantes.
 * Sistema de notas académicas.
 * Sistema de inventario.
@@ -638,7 +624,6 @@ El proyecto debe incluir:
 ---
 
 ## Buenas Prácticas de Programación
-
 Durante el curso se promoverán las siguientes buenas prácticas:
 
 * Usar nombres claros para variables, métodos y clases.
@@ -656,12 +641,9 @@ Durante el curso se promoverán las siguientes buenas prácticas:
 ## Perfil del Docente
 
 ### Juan Carlos Molina Lozano
-
-Docente del Programa de Ingeniería de Sistemas de la Universidad del Pacífico.
-
-Ingeniero de Sistemas, Especialista en Gestión y Seguridad de Bases de Datos y estudiante de tercer semestre de la Maestría en Ciencia de Datos.
-
-Cuenta con experiencia profesional como desarrollador de software independiente y como Administrador de Bases de Datos, participando en proyectos de desarrollo, administración, optimización y aseguramiento de la información.
+* Docente de Ingeniería de Sistemas.
+* Ingeniero de Sistemas, Especialista en Gestión y Seguridad de Bases de Datos y estudiante de tercer semestre de la Maestría en Ciencia de Datos.
+* Cuenta con experiencia profesional como desarrollador de software independiente y como Administrador de Bases de Datos, participando en proyectos de desarrollo, administración, optimización y aseguramiento de la información.
 
 ### Certificaciones
 
@@ -669,7 +651,6 @@ Cuenta con experiencia profesional como desarrollador de software independiente 
 * Oracle Cloud Infrastructure Foundations Associate.
 
 ### Áreas de Interés
-
 * Ciencia de Datos.
 * Bases de Datos.
 * Ingeniería de Software.
@@ -693,7 +674,6 @@ Cuenta con experiencia profesional como desarrollador de software independiente 
 ---
 
 ## Licencia
-
 Este material académico ha sido desarrollado con fines educativos para apoyar los procesos de enseñanza y aprendizaje en el área de Algoritmia y Programación.
 
 Se permite su consulta, uso y adaptación con fines académicos, citando la fuente correspondiente.
@@ -704,10 +684,8 @@ Se permite su consulta, uso y adaptación con fines académicos, citando la fuen
 
 **Juan Carlos Molina Lozano**
 Docente de Ingeniería de Sistemas
-Universidad del Pacífico
 
 ---
 
 ## Estado del Repositorio
-
 Este repositorio se encuentra en construcción y actualización permanente. Los contenidos serán ampliados progresivamente con nuevas guías, ejemplos, ejercicios, talleres y proyectos de aplicación.
