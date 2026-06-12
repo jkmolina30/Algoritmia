@@ -1,6 +1,6 @@
 # Algoritmia y Programación para Ingeniería de Sistemas
 
-Curso académico diseñado para estudiantes de primer semestre del Programa de Ingeniería de Sistemas de la Universidad del Pacífico.
+Curso académico diseñado para estudiantes de primer semestre del Programa de Ingeniería de Sistemas.
 
 Este repositorio contiene guías teóricas, ejemplos explicados paso a paso, ejercicios prácticos, talleres y proyectos orientados al aprendizaje de la algoritmia, el pensamiento computacional y la programación básica utilizando pseudocódigo, PSeInt y Java.
 
