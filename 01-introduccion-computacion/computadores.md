@@ -31,12 +31,13 @@ Ejemplo cotidiano:
 
 Cuando una persona calcula el promedio de tres notas usando un computador:
 
-Etapa	                    Descripción
-Entrada	                    El usuario escribe las tres notas
-Procesamiento	            El computador suma las notas y divide entre tres
-Almacenamiento	            El resultado se guarda temporalmente en memoria
-Salida	                    El computador muestra el promedio en pantalla
-
+| Etapa | Descripción | 
+| ------------- | ------------- |
+| Entrada | El usuario escribe las tres notas |
+| Procesamiento | El computador suma las notas y divide entre tres |
+| Almacenamiento | El resultado se guarda temporalmente en memoria |
+| Salida | Celda B2 | El computador muestra el promedio en pantalla |
+	                    
 Aunque para el usuario parezca una acción sencilla, internamente el computador ejecuta instrucciones precisas.
 
 3. Entrada, procesamiento, almacenamiento y salida
