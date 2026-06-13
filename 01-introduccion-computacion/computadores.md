@@ -1,36 +1,33 @@
 Unidad 1. Introducción a la Computación
-Presentación de la unidad
 
+Presentación de la unidad
 Antes de aprender a programar, es necesario comprender qué es un computador, cómo procesa la información y por qué los lenguajes de programación son necesarios para comunicarnos con una máquina.
 
-Muchas veces se piensa que programar es simplemente escribir código. Sin embargo, la programación comienza mucho antes. Primero se debe comprender el problema, identificar los datos, organizar una solución y luego escribir instrucciones que el computador pueda ejecutar.
-
-Esta unidad introduce los conceptos fundamentales de computación que servirán como base para el resto del curso de Algoritmia y Programación.
+Muchas veces se piensa que programar es simplemente escribir código. Sin embargo, la programación comienza mucho antes. Primero se debe comprender el problema, identificar los datos, organizar una solución y luego escribir instrucciones que el computador pueda ejecutar. Esta unidad introduce los conceptos fundamentales de computación que servirán como base para el resto del curso de Algoritmia y Programación.
 
 1. ¿Qué es la computación?
-
-La computación es el área que estudia cómo representar, procesar, almacenar y transmitir información utilizando computadores.
-
-En palabras sencillas, la computación estudia cómo las máquinas pueden ayudar a resolver problemas mediante el manejo de datos.
+La computación es el área que estudia cómo representar, procesar, almacenar y transmitir información utilizando computadores. En palabras sencillas, la computación estudia cómo las máquinas pueden ayudar a resolver problemas mediante el manejo de datos.
 
 Por ejemplo:
 
-Una calculadora procesa números.
-Un celular procesa mensajes, imágenes, llamadas y aplicaciones.
-Un cajero automático procesa datos de tarjetas, claves y transacciones.
-Una plataforma académica procesa notas, estudiantes, cursos y reportes.
-Un sistema de inventario procesa productos, cantidades y precios.
+* Una calculadora procesa números.
+
+* Un celular procesa mensajes, imágenes, llamadas y aplicaciones.
+
+* Un cajero automático procesa datos de tarjetas, claves y transacciones.
+
+* Una plataforma académica procesa notas, estudiantes, cursos y reportes.
+
+* Un sistema de inventario procesa productos, cantidades y precios.
 
 En todos estos casos hay datos que entran, operaciones que se realizan y resultados que se muestran.
 
 2. ¿Qué es un computador?
-
-Un computador es una máquina electrónica capaz de recibir datos, procesarlos, almacenarlos y entregar resultados.
-
-De forma general, un computador trabaja con el siguiente esquema:
+Un computador es una máquina electrónica capaz de recibir datos, procesarlos, almacenarlos y entregar resultados. De forma general, un computador trabaja con el siguiente esquema:
 
 Entrada → Procesamiento → Almacenamiento → Salida
-Ejemplo cotidiano
+
+Ejemplo cotidiano:
 
 Cuando una persona calcula el promedio de tres notas usando un computador:
 
