@@ -1,338 +1,365 @@
-# Unidad 1. Introducción a la Computación
+# Computadores
 
-## Presentación de la unidad
+## 1. ¿Qué es un computador?
 
-Antes de aprender a programar, es necesario comprender qué es un computador, cómo procesa la información y por qué los lenguajes de programación son necesarios para comunicarnos con una máquina.
+Un computador es una máquina electrónica que permite procesar información.
 
-Muchas veces se piensa que programar es simplemente escribir código. Sin embargo, la programación comienza mucho antes. Primero se debe comprender el problema, identificar los datos, organizar una solución y luego escribir instrucciones que el computador pueda ejecutar.
-
-Esta unidad introduce los conceptos fundamentales de computación que servirán como base para el resto del curso de Algoritmia y Programación.
-
----
-
-## 1. ¿Qué es la computación?
-
-La **computación** es el área que estudia cómo representar, procesar, almacenar y transmitir información utilizando computadores.
-
-En palabras sencillas, la computación estudia cómo las máquinas pueden ayudar a resolver problemas mediante el manejo de datos.
-
-Por ejemplo:
-
-* Una calculadora procesa números.
-* Un celular procesa mensajes, imágenes, llamadas y aplicaciones.
-* Un cajero automático procesa datos de tarjetas, claves y transacciones.
-* Una plataforma académica procesa notas, estudiantes, cursos y reportes.
-* Un sistema de inventario procesa productos, cantidades y precios.
-
-En todos estos casos hay datos que entran, operaciones que se realizan y resultados que se muestran.
-
----
-
-## 2. ¿Qué es un computador?
-
-Un **computador** es una máquina electrónica capaz de recibir datos, procesarlos, almacenarlos y entregar resultados.
-
-De forma general, un computador trabaja con el siguiente esquema:
+Su funcionamiento básico se puede resumir así:
 
 ```text
-Entrada → Procesamiento → Almacenamiento → Salida
+Recibe datos → Procesa datos → Guarda datos → Entrega resultados
 ```
 
-### Ejemplo cotidiano
+Un computador puede ser:
 
-Cuando una persona calcula el promedio de tres notas usando un computador:
+* Un computador de escritorio.
+* Un portátil.
+* Un celular inteligente.
+* Una tableta.
+* Un servidor.
+* Un cajero automático.
+* Un sistema de control en un vehículo.
+* Un dispositivo de una fábrica.
+* Un reloj inteligente.
 
-| Etapa          | Descripción                                      |
-| -------------- | ------------------------------------------------ |
-| Entrada        | El usuario escribe las tres notas                |
-| Procesamiento  | El computador suma las notas y divide entre tres |
-| Almacenamiento | El resultado se guarda temporalmente en memoria  |
-| Salida         | El computador muestra el promedio en pantalla    |
-
-Aunque para el usuario parezca una acción sencilla, internamente el computador ejecuta instrucciones precisas.
-
----
-
-## 3. Entrada, procesamiento, almacenamiento y salida
-
-Todo sistema computacional puede entenderse mediante cuatro acciones principales.
-
-### 3.1. Entrada
-
-La **entrada** corresponde a los datos que recibe el computador.
-
-Ejemplos:
-
-* Escribir el nombre de un estudiante.
-* Digitar una nota.
-* Hacer clic en un botón.
-* Escanear un código de barras.
-* Subir un archivo.
-* Tomar una fotografía.
-
-### 3.2. Procesamiento
-
-El **procesamiento** corresponde a las operaciones que realiza el computador con los datos recibidos.
-
-Ejemplos:
-
-* Sumar dos números.
-* Calcular un promedio.
-* Comparar una nota con 3.0.
-* Ordenar una lista de nombres.
-* Buscar un producto en un inventario.
-* Verificar si una contraseña es correcta.
-
-### 3.3. Almacenamiento
-
-El **almacenamiento** corresponde a guardar datos para usarlos después.
-
-Ejemplos:
-
-* Guardar un documento.
-* Guardar las notas de un estudiante.
-* Guardar usuarios en una base de datos.
-* Guardar fotos en el celular.
-* Guardar archivos en una memoria USB.
-
-### 3.4. Salida
-
-La **salida** corresponde al resultado que el computador entrega al usuario.
-
-Ejemplos:
-
-* Mostrar un mensaje en pantalla.
-* Imprimir un reporte.
-* Reproducir un sonido.
-* Generar un archivo PDF.
-* Mostrar una gráfica.
-* Enviar una notificación.
+Aunque estos dispositivos son diferentes físicamente, todos trabajan con datos e instrucciones.
 
 ---
 
-## 4. ¿Qué es un dato?
+## 2. ¿Qué significa procesar información?
 
-Un **dato** es una representación básica de un valor.
+Procesar información significa tomar datos de entrada, realizar operaciones con ellos y generar un resultado.
 
-Ejemplos de datos:
+### Ejemplo
+
+Una aplicación de notas académicas recibe:
 
 ```text
-Juan
-18
-4.5
-Verdadero
-A
+Nota 1 = 4.0
+Nota 2 = 3.5
+Nota 3 = 5.0
 ```
 
-Un dato por sí solo puede no tener mucho significado. Pero cuando se organiza dentro de un contexto, se convierte en información.
+Luego procesa:
+
+```text
+Promedio = (4.0 + 3.5 + 5.0) / 3
+```
+
+Y entrega como salida:
+
+```text
+El promedio es 4.16
+```
+
+Eso es procesamiento de información.
 
 ---
 
-## 5. ¿Qué es información?
+## 3. Modelo básico de funcionamiento de un computador
 
-La **información** es el resultado de organizar, procesar o interpretar datos.
+El modelo básico se puede representar de la siguiente manera:
+
+```text
+Entrada
+   ↓
+Procesamiento
+   ↓
+Almacenamiento
+   ↓
+Salida
+```
+
+### Entrada
+
+Datos que ingresan al computador.
+
+Ejemplos:
+
+* Teclado.
+* Mouse.
+* Cámara.
+* Micrófono.
+* Pantalla táctil.
+* Escáner.
+
+### Procesamiento
+
+Operaciones que realiza el computador.
+
+Ejemplos:
+
+* Calcular.
+* Comparar.
+* Ordenar.
+* Buscar.
+* Validar.
+* Convertir.
+
+### Almacenamiento
+
+Lugar donde se guardan los datos.
+
+Ejemplos:
+
+* Memoria RAM.
+* Disco duro.
+* Unidad de estado sólido.
+* Memoria USB.
+* Tarjeta SD.
+* Base de datos.
+
+### Salida
+
+Resultados entregados al usuario.
+
+Ejemplos:
+
+* Pantalla.
+* Impresora.
+* Parlantes.
+* Archivo generado.
+* Notificación.
+
+---
+
+## 4. Componentes principales de un computador
+
+Un computador está formado por diferentes componentes. Algunos son físicos y otros son lógicos.
+
+Los componentes físicos hacen parte del hardware.
+
+Los componentes lógicos hacen parte del software.
+
+---
+
+## 5. Unidad Central de Procesamiento
+
+La **Unidad Central de Procesamiento**, conocida como **CPU**, es uno de los componentes más importantes del computador.
+
+La CPU se encarga de ejecutar instrucciones y realizar operaciones.
+
+En palabras sencillas, la CPU es como el “cerebro operativo” del computador, porque coordina y procesa las instrucciones.
+
+### Funciones principales de la CPU
+
+* Interpretar instrucciones.
+* Realizar cálculos.
+* Comparar datos.
+* Coordinar otros componentes.
+* Ejecutar programas.
+
+### Ejemplo
+
+Cuando un programa en Java calcula:
+
+```java
+promedio = (nota1 + nota2 + nota3) / 3;
+```
+
+La CPU participa realizando las operaciones necesarias para obtener el resultado.
+
+---
+
+## 6. Memoria RAM
+
+La **memoria RAM** es una memoria temporal que el computador utiliza mientras está encendido.
+
+Sirve para guardar datos e instrucciones que se están usando en ese momento.
+
+### Explicación sencilla
+
+Si estás escribiendo un documento, el contenido que estás editando se mantiene temporalmente en la RAM mientras el programa está abierto.
+
+Si el computador se apaga inesperadamente y el documento no fue guardado, se puede perder parte del trabajo.
+
+### Características de la RAM
+
+* Es rápida.
+* Es temporal.
+* Se borra al apagar el computador.
+* Ayuda a que los programas funcionen mientras están abiertos.
+
+---
+
+## 7. Almacenamiento secundario
+
+El almacenamiento secundario permite guardar información de forma permanente.
+
+Ejemplos:
+
+* Disco duro.
+* Unidad de estado sólido.
+* Memoria USB.
+* Tarjeta SD.
+* Disco externo.
+
+A diferencia de la RAM, los datos guardados en un disco o unidad de almacenamiento permanecen aunque el computador se apague.
+
+### Ejemplo
+
+Cuando guardas un archivo llamado:
+
+```text
+ejercicio-promedio.java
+```
+
+Ese archivo queda almacenado en el disco del computador.
+
+---
+
+## 8. Placa base o motherboard
+
+La placa base es el componente que conecta las diferentes partes del computador.
+
+En ella se conectan:
+
+* CPU.
+* Memoria RAM.
+* Almacenamiento.
+* Tarjeta de video.
+* Puertos USB.
+* Otros componentes.
+
+En palabras sencillas, la placa base es como una vía principal por donde se comunican las partes del computador.
+
+---
+
+## 9. Dispositivos de entrada
+
+Los dispositivos de entrada permiten ingresar datos al computador.
+
+Ejemplos:
+
+| Dispositivo     | Dato que permite ingresar |
+| --------------- | ------------------------- |
+| Teclado         | Texto, números, comandos  |
+| Mouse           | Clics, movimientos        |
+| Micrófono       | Sonido                    |
+| Cámara          | Imagen o video            |
+| Escáner         | Documentos o imágenes     |
+| Pantalla táctil | Toques y gestos           |
+
+---
+
+## 10. Dispositivos de salida
+
+Los dispositivos de salida permiten mostrar resultados al usuario.
+
+Ejemplos:
+
+| Dispositivo | Resultado que entrega     |
+| ----------- | ------------------------- |
+| Monitor     | Imágenes, texto, ventanas |
+| Impresora   | Documentos físicos        |
+| Parlantes   | Sonido                    |
+| Proyector   | Imagen ampliada           |
+| Audífonos   | Sonido privado            |
+
+---
+
+## 11. Dispositivos de entrada y salida
+
+Algunos dispositivos pueden funcionar como entrada y salida al mismo tiempo.
+
+Ejemplos:
+
+| Dispositivo     | Entrada         | Salida           |
+| --------------- | --------------- | ---------------- |
+| Pantalla táctil | Detecta toques  | Muestra imágenes |
+| Memoria USB     | Recibe archivos | Entrega archivos |
+| Tarjeta de red  | Recibe datos    | Envía datos      |
+| Disco duro      | Guarda datos    | Lee datos        |
+
+---
+
+## 12. Sistema operativo
+
+El **sistema operativo** es el software principal del computador.
+
+Permite que el usuario y los programas puedan utilizar el hardware.
+
+Ejemplos de sistemas operativos:
+
+* Windows.
+* Linux.
+* macOS.
+* Android.
+* iOS.
+
+### Funciones del sistema operativo
+
+* Administrar archivos.
+* Ejecutar programas.
+* Controlar dispositivos.
+* Administrar memoria.
+* Permitir conexión a internet.
+* Gestionar usuarios.
+* Mostrar una interfaz gráfica.
+
+---
+
+## 13. Computador y programa
+
+Un computador necesita programas para realizar tareas.
+
+Sin programas, el computador no sabría qué hacer.
 
 Ejemplo:
 
-Datos:
+| Tarea                 | Programa necesario          |
+| --------------------- | --------------------------- |
+| Escribir un documento | Procesador de texto         |
+| Navegar en internet   | Navegador web               |
+| Editar imágenes       | Editor gráfico              |
+| Programar en Java     | NetBeans, Eclipse o VS Code |
+| Ejecutar un algoritmo | PSeInt                      |
 
-```text
-Nombre: Ana
-Nota 1: 4.0
-Nota 2: 3.5
-Nota 3: 4.5
+---
+
+## 14. El computador no piensa como una persona
+
+Un error común es creer que el computador “entiende” lo que queremos hacer.
+
+En realidad, el computador ejecuta instrucciones.
+
+Si una instrucción está mal escrita, el computador no la corrige por sentido común.
+
+### Ejemplo
+
+Si en Java escribimos:
+
+```java
+System.out.println("Hola mundo")
 ```
 
-Información:
+El programa genera error porque falta el punto y coma.
 
-```text
-Ana obtuvo un promedio de 4.0 y aprobó la asignatura.
-```
-
-El computador trabaja con datos, pero el objetivo de muchos programas es producir información útil.
-
----
-
-## 6. ¿Qué es un programa?
-
-Un **programa** es un conjunto de instrucciones que le indican al computador qué debe hacer.
-
-Ejemplo:
-
-Un programa puede indicar:
-
-1. Leer el nombre de un estudiante.
-2. Leer tres notas.
-3. Calcular el promedio.
-4. Determinar si aprobó o reprobó.
-5. Mostrar el resultado.
-
-Un computador no adivina lo que debe hacer. Necesita instrucciones claras, ordenadas y precisas.
-
----
-
-## 7. ¿Qué es programar?
-
-**Programar** es escribir instrucciones para que un computador resuelva un problema o realice una tarea.
-
-Pero programar no es solo escribir código.
-
-Programar implica:
-
-* Comprender el problema.
-* Analizar los datos necesarios.
-* Diseñar una solución.
-* Escribir instrucciones.
-* Probar el programa.
-* Corregir errores.
-* Mejorar la solución.
-
-En este curso, se aprenderá primero a pensar la solución y luego a implementarla en Java.
-
----
-
-## 8. ¿Qué es un lenguaje de programación?
-
-Un **lenguaje de programación** es un conjunto de reglas, símbolos e instrucciones que permite escribir programas.
-
-Así como las personas usan idiomas como español, inglés o francés para comunicarse, los programadores usan lenguajes como Java, Python, C++, JavaScript o C# para comunicarse con el computador.
-
-Ejemplo de instrucción en Java:
+El computador no asume que queríamos escribir:
 
 ```java
 System.out.println("Hola mundo");
 ```
 
-Esta instrucción le dice al computador que muestre el mensaje `Hola mundo` en pantalla.
+Por eso, al programar debemos ser precisos.
 
 ---
 
-## 9. ¿Por qué el computador no entiende directamente el lenguaje humano?
+## 15. Relación entre computador y algoritmia
 
-El computador no entiende frases humanas como:
+La algoritmia permite diseñar los pasos que luego un computador ejecutará mediante un programa.
 
-```text
-Por favor, calcula el promedio de estas notas.
-```
+Un computador es rápido, pero necesita instrucciones claras.
 
-El computador necesita instrucciones formales, escritas con reglas exactas.
+Un algoritmo es la forma organizada de construir esas instrucciones.
 
-Por eso usamos lenguajes de programación.
-
-En un lenguaje de programación, una instrucción debe escribirse correctamente. Si falta un símbolo, una palabra o un punto y coma, el programa puede generar error.
+Por eso, antes de programar en Java, se aprende a diseñar algoritmos.
 
 ---
 
-## 10. Relación entre algoritmo, pseudocódigo y programa
+## 16. Resumen
 
-Estos tres conceptos estarán presentes durante todo el curso.
-
-| Concepto     | Explicación sencilla                                                |
-| ------------ | ------------------------------------------------------------------- |
-| Algoritmo    | Secuencia ordenada de pasos para resolver un problema               |
-| Pseudocódigo | Forma de escribir el algoritmo usando un lenguaje cercano al humano |
-| Programa     | Implementación del algoritmo en un lenguaje como Java               |
-
-### Ejemplo
-
-Problema:
-
-```text
-Calcular el doble de un número.
-```
-
-Algoritmo en lenguaje natural:
-
-```text
-1. Pedir un número.
-2. Multiplicar el número por 2.
-3. Mostrar el resultado.
-```
-
-Pseudocódigo:
-
-```pseint
-Algoritmo CalcularDoble
-    Definir numero, doble Como Entero
-
-    Escribir "Ingrese un número:"
-    Leer numero
-
-    doble <- numero * 2
-
-    Escribir "El doble es: ", doble
-FinAlgoritmo
-```
-
-Programa en Java:
-
-```java
-import java.util.Scanner;
-
-public class CalcularDoble {
-    public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-
-        int numero;
-        int doble;
-
-        System.out.print("Ingrese un número: ");
-        numero = entrada.nextInt();
-
-        doble = numero * 2;
-
-        System.out.println("El doble es: " + doble);
-
-        entrada.close();
-    }
-}
-```
+Un computador es una máquina que trabaja con datos e instrucciones. Sus componentes permiten recibir información, procesarla, almacenarla y mostrar resultados. Para que un computador realice una tarea necesita programas, y los programas se construyen a partir de algoritmos.
 
 ---
 
-## 11. ¿Por qué iniciar con computación antes de programar?
-
-Porque antes de escribir código es importante entender:
-
-* Qué es un computador.
-* Cómo recibe datos.
-* Cómo procesa instrucciones.
-* Cómo almacena información.
-* Cómo muestra resultados.
-* Qué papel cumple el software.
-* Qué papel cumple el hardware.
-* Por qué existen los lenguajes de programación.
-
-Esto permite que el estudiante no vea la programación como una serie de comandos aislados, sino como un proceso lógico para resolver problemas usando tecnología.
-
----
-
-## 12. Conceptos clave de la unidad
-
-| Concepto                 | Definición sencilla                                                |
-| ------------------------ | ------------------------------------------------------------------ |
-| Computador               | Máquina que recibe, procesa, almacena y entrega información        |
-| Dato                     | Valor básico que puede ser procesado                               |
-| Información              | Datos organizados con significado                                  |
-| Hardware                 | Parte física del computador                                        |
-| Software                 | Programas e instrucciones que usa el computador                    |
-| Programa                 | Conjunto de instrucciones                                          |
-| Lenguaje de programación | Medio para escribir instrucciones que el computador puede ejecutar |
-| Algoritmo                | Pasos ordenados para resolver un problema                          |
-| Pseudocódigo             | Representación sencilla de un algoritmo                            |
-
----
-
-## 13. Resultado de aprendizaje de la unidad
-
-Al finalizar esta unidad, el estudiante estará en capacidad de explicar qué es un computador, identificar sus componentes básicos, diferenciar hardware y software, reconocer el papel de los lenguajes de programación y relacionar los conceptos de dato, información, algoritmo y programa.
-
----
-
-## 14. Resumen de la unidad
-
-Un computador es una máquina capaz de recibir datos, procesarlos, almacenarlos y entregar resultados. Para que pueda realizar tareas, necesita programas. Los programas se escriben usando lenguajes de programación. Antes de escribir un programa, se debe diseñar una solución mediante un algoritmo.
-
-Por eso, aprender programación no consiste únicamente en aprender comandos. Consiste en aprender a pensar de manera ordenada para que una máquina pueda ejecutar una solución correctamente.
-
----
