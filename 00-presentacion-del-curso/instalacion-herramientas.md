@@ -305,6 +305,10 @@ https://netbeans.apache.org/
 
 NetBeans permite crear proyectos Java con una interfaz sencilla.
 
+NOTA: En el siguiente link puedes descargar el archivo completo, el cual ya contiene el Apache NetBeans 30 + JDK 26. Al momento de la creacion de esta guia esa es la versión disponible: 
+
+https://www.codelerity.com/netbeans/
+
 ---
 
 ## 11. Instalación de Git
