@@ -1,4 +1,4 @@
-# Unidad 3. Pseudocódigo, Diagramas de Flujo y Prueba de Escritorio
+# Unidad - Pseudocódigo, Diagramas de Flujo y Prueba de Escritorio
 
 ## Presentación de la unidad
 
