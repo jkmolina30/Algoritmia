@@ -1,0 +1,340 @@
+# Ejemplos en Java
+
+## Introducción
+En este archivo se presentan implementaciones en Java de los ejemplos trabajados en PSeInt. La idea es que el estudiante observe cómo una solución pensada primero en pseudocódigo puede convertirse en un programa real. En esta unidad se trabajarán programas secuenciales, es decir, programas donde las instrucciones se ejecutan una después de otra.
+
+---
+
+Estructura básica de un programa Java. 
+Antes de revisar los ejemplos, recordemos una estructura básica:
+
+public class NombreDelPrograma {
+    public static void main(String[] args) {
+
+    }
+}
+
+**Explicación sencilla**
+public class NombreDelPrograma
+Define una clase. En Java, el código se organiza dentro de clases.
+
+public static void main(String[] args)
+Es el método principal. Desde allí inicia la ejecución del programa.
+
+Las instrucciones que queremos ejecutar se escriben dentro de las llaves { } del método main.
+
+--- 
+
+Uso de Scanner
+Para leer datos desde el teclado se usa Scanner.
+
+import java.util.Scanner;
+Esta línea importa la herramienta Scanner.
+
+Luego se crea un objeto para leer datos:
+Scanner entrada = new Scanner(System.in);
+
+Al finalizar el programa, se recomienda cerrar el objeto:
+entrada.close();
+
+---
+
+Ejemplo 1. Saludo personalizado
+Problema
+Leer el nombre de una persona y mostrar un mensaje de bienvenida.
+
+**Código Java**
+import java.util.Scanner;
+
+public class SaludoPersonalizado {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        String nombre;
+
+        System.out.print("Ingrese su nombre: ");
+        nombre = entrada.nextLine();
+
+        System.out.println("Bienvenido al curso de Algoritmia, " + nombre);
+
+        entrada.close();
+    }
+}
+
+Explicación línea a línea
+
+import java.util.Scanner;
+Importa la clase Scanner, necesaria para leer datos desde el teclado.
+
+public class SaludoPersonalizado {
+Define una clase llamada SaludoPersonalizado.
+
+public static void main(String[] args) {
+Define el método principal del programa.
+
+Scanner entrada = new Scanner(System.in);
+Crea un lector de datos llamado entrada.
+
+String nombre;
+Declara una variable llamada nombre para guardar texto.
+
+System.out.print("Ingrese su nombre: ");
+Muestra un mensaje al usuario.
+
+nombre = entrada.nextLine();
+Lee una línea de texto y la guarda en la variable nombre.
+
+System.out.println("Bienvenido al curso de Algoritmia, " + nombre);
+Muestra el mensaje final concatenando texto con el valor de la variable.
+
+entrada.close();
+Cierra el objeto Scanner.
+
+---
+
+Ejemplo 2. Suma de dos números
+Problema
+Leer dos números enteros y mostrar su suma.
+
+**Código Java**
+import java.util.Scanner;
+
+public class SumaDosNumeros {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        int num1;
+        int num2;
+        int suma;
+
+        System.out.print("Ingrese el primer número: ");
+        num1 = entrada.nextInt();
+
+        System.out.print("Ingrese el segundo número: ");
+        num2 = entrada.nextInt();
+
+        suma = num1 + num2;
+
+        System.out.println("La suma es: " + suma);
+
+        entrada.close();
+    }
+}
+
+Explicación
+int num1;
+int num2;
+int suma;
+Declara tres variables enteras.
+
+num1 = entrada.nextInt();
+Lee el primer número entero.
+
+num2 = entrada.nextInt();
+Lee el segundo número entero.
+
+suma = num1 + num2;
+Suma los dos números y guarda el resultado.
+
+System.out.println("La suma es: " + suma);
+Muestra el resultado.
+
+---
+
+Ejemplo 3. Calcular el doble de un número
+Problema
+Leer un número entero y mostrar su doble.
+
+**Código Java**
+import java.util.Scanner;
+
+public class CalcularDoble {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        int numero;
+        int doble;
+
+        System.out.print("Ingrese un número: ");
+        numero = entrada.nextInt();
+
+        doble = numero * 2;
+
+        System.out.println("El doble del número es: " + doble);
+
+        entrada.close();
+    }
+}
+Prueba de escritorio
+
+Dato de prueba:
+| Paso              | numero | doble |
+| ----------------- | -----: | ----: |
+| Inicio            |      - |     - |
+| Leer número       |      9 |     - |
+| Calcular doble    |      9 |    18 |
+| Mostrar resultado |      9 |    18 |
+
+---
+
+Ejemplo 4. Área de un rectángulo
+Problema
+Calcular el área de un rectángulo conociendo su base y altura.
+
+**Código Java**
+import java.util.Scanner;
+
+public class AreaRectangulo {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        double base;
+        double altura;
+        double area;
+
+        System.out.print("Ingrese la base del rectángulo: ");
+        base = entrada.nextDouble();
+
+        System.out.print("Ingrese la altura del rectángulo: ");
+        altura = entrada.nextDouble();
+
+        area = base * altura;
+
+        System.out.println("El área del rectángulo es: " + area);
+
+        entrada.close();
+    }
+}
+
+Explicación
+
+Se utiliza double porque la base, la altura y el área pueden tener valores decimales.
+
+Ejemplo:
+base = 5.5
+altura = 3.2
+
+---
+
+Ejemplo 5. Promedio de tres notas
+Problema
+Leer tres notas y calcular el promedio.
+
+**Código Java**
+import java.util.Scanner;
+
+public class PromedioTresNotas {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        double nota1;
+        double nota2;
+        double nota3;
+        double promedio;
+
+        System.out.print("Ingrese la primera nota: ");
+        nota1 = entrada.nextDouble();
+
+        System.out.print("Ingrese la segunda nota: ");
+        nota2 = entrada.nextDouble();
+
+        System.out.print("Ingrese la tercera nota: ");
+        nota3 = entrada.nextDouble();
+
+        promedio = (nota1 + nota2 + nota3) / 3;
+
+        System.out.println("El promedio es: " + promedio);
+
+        entrada.close();
+    }
+}
+
+Explicación importante
+promedio = (nota1 + nota2 + nota3) / 3;
+
+Los paréntesis son necesarios porque primero se deben sumar las tres notas y luego dividir entre 3.
+
+Si se escribiera así:
+
+promedio = nota1 + nota2 + nota3 / 3;
+
+El resultado sería incorrecto, porque Java dividiría primero nota3 / 3.
+
+---
+
+Ejemplo 6. Convertir horas a minutos
+Problema
+Leer una cantidad de horas y convertirla a minutos.
+
+**Código Java**
+import java.util.Scanner;
+
+public class ConvertirHorasMinutos {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        int horas;
+        int minutos;
+
+        System.out.print("Ingrese la cantidad de horas: ");
+        horas = entrada.nextInt();
+
+        minutos = horas * 60;
+
+        System.out.println(horas + " horas equivalen a " + minutos + " minutos.");
+
+        entrada.close();
+    }
+}
+
+---
+
+Ejemplo 7. Valor total de una compra
+Problema
+Leer el precio de un producto y la cantidad comprada. Mostrar el valor total a pagar.
+
+**Código Java**
+import java.util.Scanner;
+
+public class ValorTotalCompra {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        double precio;
+        int cantidad;
+        double total;
+
+        System.out.print("Ingrese el precio del producto: ");
+        precio = entrada.nextDouble();
+
+        System.out.print("Ingrese la cantidad comprada: ");
+        cantidad = entrada.nextInt();
+
+        total = precio * cantidad;
+
+        System.out.println("El total a pagar es: " + total);
+
+        entrada.close();
+    }
+}
+
+Explicación
+
+double precio;
+Se usa double porque el precio puede tener decimales.
+
+int cantidad;
+Se usa int porque la cantidad normalmente es un número entero de unidades.
+
+---
+
+Recomendación para ejecutar los ejemplos
+
+Para cada ejemplo:
+
+1. Crear un archivo con el mismo nombre de la clase.
+2. Copiar el código.
+3. Ejecutar el programa.
+4. Probar con diferentes datos.
+5. Comparar el resultado con la prueba de escritorio.
+6. Modificar el programa y observar qué cambia.
