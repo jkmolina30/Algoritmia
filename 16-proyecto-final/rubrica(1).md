@@ -153,13 +153,3 @@ Puntaje total: **100 puntos**.
 | **Total** | **100** |
 
 ---
-
-## Observaciones del docente
-
-```text
-Fortalezas:
-
-Aspectos por mejorar:
-
-Recomendaciones:
-```
