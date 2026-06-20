@@ -1,0 +1,64 @@
+# Unidad 3. Introducción a Java
+
+## Presentación
+
+Esta unidad introduce el lenguaje de programación **Java** desde una perspectiva clara, gradual y práctica.
+
+Hasta este punto del curso, el estudiante ha trabajado conceptos básicos de computación, algoritmia, entrada, proceso, salida, pseudocódigo y solución de problemas. Ahora se inicia la transición hacia un lenguaje de programación real.
+
+Java será utilizado para implementar los algoritmos diseñados previamente en lenguaje natural y pseudocódigo.
+
+---
+
+## Objetivo de la unidad
+
+Comprender qué es Java, por qué se utiliza, cómo funciona su proceso de ejecución y cuál es la estructura básica de un programa.
+
+---
+
+## Archivos de la unidad
+
+```text
+03-introduccion-java/
+│
+├── README.md
+├── teoria.md
+├── jdk-jre-jvm-bytecode.md
+├── primer-programa-java.md
+├── estructura-sintaxis-basica.md
+├── entrada-salida-datos.md
+├── errores-comunes.md
+├── ejemplos-java.md
+└── ejercicios-propuestos.md
+```
+
+---
+
+## Ruta recomendada de estudio
+
+Se recomienda estudiar los archivos en este orden:
+
+1. `teoria.md`
+2. `jdk-jre-jvm-bytecode.md`
+3. `primer-programa-java.md`
+4. `estructura-sintaxis-basica.md`
+5. `entrada-salida-datos.md`
+6. `errores-comunes.md`
+7. `ejemplos-java.md`
+8. `ejercicios-propuestos.md`
+
+---
+
+## Resultado esperado
+
+Al finalizar esta unidad, el estudiante debe poder:
+
+- Explicar qué es Java.
+- Reconocer el origen e importancia de Java.
+- Comprender la idea de lenguaje multiplataforma.
+- Diferenciar JDK, JRE, JVM y bytecode.
+- Crear y ejecutar un primer programa en Java.
+- Reconocer la estructura básica de una clase Java.
+- Usar `System.out.print`, `System.out.println` y `Scanner`.
+- Identificar errores comunes de sintaxis.
+- Desarrollar programas secuenciales básicos.
