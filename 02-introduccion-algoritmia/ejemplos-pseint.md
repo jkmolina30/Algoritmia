@@ -1,0 +1,291 @@
+# Ejemplos en PSeInt
+
+## Introducción
+En este archivo se presentan ejemplos básicos en PSeInt para practicar la lógica algorítmica. Estos ejemplos se enfocan en problemas secuenciales, es decir, problemas donde las instrucciones se ejecutan una después de otra, sin usar todavía condicionales ni ciclos.
+
+---
+
+Ejemplo 1. Saludo personalizado
+Problema
+Leer el nombre de una persona y mostrar un mensaje de bienvenida.
+
+**Análisis**
+| Elemento | Descripción                     |
+| -------- | ------------------------------- |
+| Entrada  | nombre                          |
+| Proceso  | construir mensaje de bienvenida |
+| Salida   | saludo personalizado            |
+
+**Pseudocódigo**
+Algoritmo SaludoPersonalizado
+    Definir nombre Como Caracter
+
+    Escribir "Ingrese su nombre:"
+    Leer nombre
+
+    Escribir "Bienvenido al curso de Algoritmia, ", nombre
+FinAlgoritmo
+
+**Explicación línea a línea**
+
+Algoritmo SaludoPersonalizado
+Indica el inicio del algoritmo y le asigna un nombre.
+
+Definir nombre Como Caracter
+Declara (crea) una variable llamada nombre. Se usa Caracter porque almacenará texto.
+
+Escribir "Ingrese su nombre:"
+Muestra un mensaje en pantalla.
+
+Leer nombre
+Guarda en la variable nombre el dato digitado por el usuario.
+
+Escribir "Bienvenido al curso de Algoritmia, ", nombre
+Muestra el mensaje final junto con el nombre ingresado.
+
+FinAlgoritmo
+Finaliza el algoritmo.
+
+---
+
+Ejemplo 2. Suma de dos números
+Problema
+Leer dos números enteros y mostrar la suma.
+
+**Análisis**
+| Elemento | Descripción          |
+| -------- | -------------------- |
+| Entrada  | num1, num2           |
+| Proceso  | suma = num1 + num2   |
+| Salida   | resultado de la suma |
+
+**Pseudocódigo**
+Algoritmo SumaDosNumeros
+    Definir num1, num2, suma Como Entero
+
+    Escribir "Ingrese el primer número:"
+    Leer num1
+
+    Escribir "Ingrese el segundo número:"
+    Leer num2
+
+    suma <- num1 + num2
+
+    Escribir "La suma es: ", suma
+FinAlgoritmo
+
+**Prueba de escritorio**
+Datos de prueba:
+
+num1 = 6
+num2 = 4
+
+| Paso              | num1 | num2 | suma |
+| ----------------- | ---: | ---: | ---: |
+| Inicio            |    - |    - |    - |
+| Leer num1         |    6 |    - |    - |
+| Leer num2         |    6 |    4 |    - |
+| Calcular suma     |    6 |    4 |   10 |
+| Mostrar resultado |    6 |    4 |   10 |
+
+Salida esperada:
+
+La suma es: 10
+
+---
+
+Ejemplo 3. Calcular el doble de un número
+Problema
+Leer un número entero y mostrar su doble.
+
+**Análisis**
+| Elemento | Descripción        |
+| -------- | ------------------ |
+| Entrada  | numero             |
+| Proceso  | doble = numero * 2 |
+| Salida   | doble del número   |
+
+**Pseudocódigo**
+Algoritmo CalcularDoble **->** Nombre del Algoritmo
+    Definir numero, doble Como Entero **->** Declaración o creación de variables (numero y doble) de tipo entero
+
+    Escribir "Ingrese un número:" **->** Muestra un mensaje en pantalla.
+    Leer numero **->** Guarda o almacena  en la variable numero el dato digitado por el usuario.
+
+    doble <- numero * 2 **->** Operacion
+
+    Escribir "El doble del número es: ", doble **->** Muestra el mensaje final junto con la variable doble.
+FinAlgoritmo **->** Comando para terminar o finalizar el Algoritmo
+
+Explicación
+- La variable numero guarda el dato ingresado por el usuario.
+- La variable doble guarda el resultado de multiplicar el número por 2.
+
+---
+
+Ejemplo 4. Área de un rectángulo
+Problema
+Calcular el área de un rectángulo conociendo su base y altura.
+
+Fórmula
+Área = base * altura
+
+**Análisis**
+| Elemento | Descripción          |
+| -------- | -------------------- |
+| Entrada  | base, altura         |
+| Proceso  | area = base * altura |
+| Salida   | área del rectángulo  |
+
+**Pseudocódigo**
+Algoritmo AreaRectangulo
+    Definir base, altura, area Como Real
+
+    Escribir "Ingrese la base del rectángulo:"
+    Leer base
+
+    Escribir "Ingrese la altura del rectángulo:"
+    Leer altura
+
+    area <- base * altura
+
+    Escribir "El área del rectángulo es: ", area
+FinAlgoritmo
+
+**Prueba de escritorio**
+
+Datos de prueba:
+
+base = 8
+altura = 5
+
+| Paso              | base | altura | area |
+| ----------------- | ---: | -----: | ---: |
+| Inicio            |    - |      - |    - |
+| Leer base         |    8 |      - |    - |
+| Leer altura       |    8 |      5 |    - |
+| Calcular área     |    8 |      5 |   40 |
+| Mostrar resultado |    8 |      5 |   40 |
+
+Salida esperada:
+
+El área del rectángulo es: 40
+
+---
+
+Ejemplo 5. Promedio de tres notas
+Problema
+Leer tres notas y calcular el promedio.
+
+Fórmula
+promedio = (nota1 + nota2 + nota3) / 3
+
+**Análisis**
+| Elemento | Descripción                       |
+| -------- | --------------------------------- |
+| Entrada  | nota1, nota2, nota3               |
+| Proceso  | sumar las notas y dividir entre 3 |
+| Salida   | promedio                          |
+
+**Pseudocódigo**
+Algoritmo PromedioTresNotas
+    Definir nota1, nota2, nota3, promedio Como Real
+
+    Escribir "Ingrese la primera nota:"
+    Leer nota1
+
+    Escribir "Ingrese la segunda nota:"
+    Leer nota2
+
+    Escribir "Ingrese la tercera nota:"
+    Leer nota3
+
+    promedio <- (nota1 + nota2 + nota3) / 3
+
+    Escribir "El promedio es: ", promedio
+FinAlgoritmo
+
+**Prueba de escritorio**
+Datos de prueba:
+
+nota1 = 4.0
+nota2 = 3.5
+nota3 = 5.0
+
+| Paso              | nota1 | nota2 | nota3 | promedio |
+| ----------------- | ----: | ----: | ----: | -------: |
+| Inicio            |     - |     - |     - |        - |
+| Leer nota1        |   4.0 |     - |     - |        - |
+| Leer nota2        |   4.0 |   3.5 |     - |        - |
+| Leer nota3        |   4.0 |   3.5 |   5.0 |        - |
+| Calcular promedio |   4.0 |   3.5 |   5.0 |    4.166 |
+| Mostrar resultado |   4.0 |   3.5 |   5.0 |    4.166 |
+
+---
+
+Ejemplo 6. Convertir horas a minutos
+Problema
+Leer una cantidad de horas y convertirla a minutos.
+
+Fórmula
+minutos = horas * 60
+
+**Análisis**
+| Elemento | Descripción              |
+| -------- | ------------------------ |
+| Entrada  | horas                    |
+| Proceso  | multiplicar horas por 60 |
+| Salida   | minutos equivalentes     |
+
+**Pseudocódigo**
+Algoritmo ConvertirHorasMinutos
+    Definir horas, minutos Como Entero
+
+    Escribir "Ingrese la cantidad de horas:"
+    Leer horas
+
+    minutos <- horas * 60
+
+    Escribir horas, " horas equivalen a ", minutos, " minutos."
+FinAlgoritmo
+
+---
+
+Ejemplo 7. Calcular valor total de una compra
+Problema
+Leer el precio de un producto y la cantidad comprada. Mostrar el valor total.
+
+Fórmula
+total = precio * cantidad
+
+**Análisis**
+| Elemento | Descripción                     |
+| -------- | ------------------------------- |
+| Entrada  | precio, cantidad                |
+| Proceso  | multiplicar precio por cantidad |
+| Salida   | total a pagar                   |
+
+**Pseudocódigo**
+Algoritmo ValorTotalCompra
+    Definir precio, total Como Real
+    Definir cantidad Como Entero
+
+    Escribir "Ingrese el precio del producto:"
+    Leer precio
+
+    Escribir "Ingrese la cantidad comprada:"
+    Leer cantidad
+
+    total <- precio * cantidad
+
+    Escribir "El total a pagar es: ", total
+FinAlgoritmo
+
+---
+
+## Conclusión
+Todos los ejemplos anteriores siguen la estructura:
+
+Entrada → Proceso → Salida
+
+Esta estructura debe convertirse en un hábito. Antes de escribir un algoritmo, se debe identificar qué datos entran, qué se hace con ellos y qué resultado debe mostrarse.
