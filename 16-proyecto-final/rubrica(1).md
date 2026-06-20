@@ -6,7 +6,7 @@
 
 En este proyecto final **no se evaluará Programación Orientada a Objetos (POO)**.
 
-La POO solo se trabajará como una introducción general en este curso. Su profundización corresponde al segundo semestre. Por esta razón, el proyecto final debe enfocarse en programación estructurada en Java.
+La POO solo se trabajará como una introducción general en este curso. Su profundización corresponde a otro curso. Por esta razón, el proyecto final debe enfocarse en programación estructurada en Java.
 
 El proyecto debe evidenciar el manejo de:
 
