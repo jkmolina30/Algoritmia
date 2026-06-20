@@ -1,4 +1,4 @@
-# Unidad 2. Variables, Tipos de Datos y Operadores
+# Unidad - Variables, Tipos de Datos y Operadores
 
 ## Presentación de la unidad
 
