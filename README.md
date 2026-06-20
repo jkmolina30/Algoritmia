@@ -638,12 +638,12 @@ Durante el curso se promoverán las siguientes buenas prácticas:
 
 ---
 
-## Perfil del Docente
+## Perfil del Autor
 
 ### Juan Carlos Molina Lozano
-* Docente de Ingeniería de Sistemas.
 * Ingeniero de Sistemas, Especialista en Gestión y Seguridad de Bases de Datos y estudiante de tercer semestre de la Maestría en Ciencia de Datos.
 * Cuenta con experiencia profesional como desarrollador de software independiente y como Administrador de Bases de Datos, participando en proyectos de desarrollo, administración, optimización y aseguramiento de la información.
+* Ademas cuenta con experiencia en el sector de educación, se ha desempeñado como docente de informatica en varios establecimientos de educación basica, media y universitaria
 
 ### Certificaciones
 
@@ -680,10 +680,10 @@ Se permite su consulta, uso y adaptación con fines académicos, citando la fuen
 
 ---
 
-## Contacto
+## Autor
 
 **Juan Carlos Molina Lozano**
-Docente de Ingeniería de Sistemas
+Ingeniero de Sistemas
 
 ---
 
