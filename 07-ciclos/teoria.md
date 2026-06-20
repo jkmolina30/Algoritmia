@@ -19,7 +19,7 @@ Para resolver estos casos se usan **ciclos**, también llamados **estructuras re
 
 ## 1. ¿Qué es un ciclo?
 
-Un ciclo es una estructura que permite repetir instrucciones mientras se cumpla una condición o durante un número determinado de veces.
+Un ciclo ó también conocidos como bucle, es una estructura que permite repetir instrucciones mientras se cumpla una condición o durante un número determinado de veces.
 
 Ejemplo cotidiano:
 
@@ -39,7 +39,6 @@ while (contador <= 5) {
 ---
 
 ## 2. ¿Para qué sirven los ciclos?
-
 Sirven para evitar repetir código manualmente.
 
 Sin ciclo:
@@ -65,7 +64,6 @@ El ciclo hace el código más corto, ordenado y flexible.
 ---
 
 ## 3. Tipos principales de ciclos en Java
-
 En Java trabajaremos tres ciclos principales:
 
 | Ciclo | Uso principal |
@@ -77,7 +75,6 @@ En Java trabajaremos tres ciclos principales:
 ---
 
 ## 4. Partes importantes de un ciclo
-
 En muchos ciclos aparecen tres elementos:
 
 | Elemento | Explicación |
@@ -104,7 +101,6 @@ while (contador <= 5) {
 ---
 
 ## 5. Contador
-
 Un contador es una variable que aumenta o disminuye siguiendo un patrón.
 
 Ejemplo:
@@ -122,7 +118,6 @@ contador = contador + 1
 ---
 
 ## 6. Acumulador
-
 Un acumulador es una variable que guarda una suma progresiva.
 
 Ejemplo:
@@ -136,7 +131,6 @@ Si se ingresan varios números, `suma` va acumulando el total.
 ---
 
 ## 7. Ciclo infinito
-
 Un ciclo infinito ocurre cuando la condición nunca se vuelve falsa.
 
 Ejemplo incorrecto:
@@ -166,7 +160,6 @@ while (contador <= 5) {
 ---
 
 ## 8. ¿Cuándo usar `while`?
-
 Se usa `while` cuando no sabemos exactamente cuántas veces se repetirá algo, pero sí sabemos la condición para continuar.
 
 Ejemplo:
@@ -178,7 +171,6 @@ Pedir contraseña mientras sea incorrecta.
 ---
 
 ## 9. ¿Cuándo usar `do-while`?
-
 Se usa `do-while` cuando queremos que el bloque se ejecute al menos una vez.
 
 Ejemplo:
@@ -190,7 +182,6 @@ Mostrar un menú al menos una vez y repetir mientras el usuario no elija salir.
 ---
 
 ## 10. ¿Cuándo usar `for`?
-
 Se usa `for` cuando conocemos cuántas veces debe repetirse el ciclo.
 
 Ejemplo:
