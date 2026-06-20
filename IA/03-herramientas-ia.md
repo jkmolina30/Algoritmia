@@ -46,6 +46,8 @@ Puede ayudar a:
 - Resumir información.
 - Integrarse con herramientas de productividad, según disponibilidad.
 
+NOTA: Cuando se tienen cuentas asociadas a Google, como gmail, podemos hacer uso de esta herramienta en su version gratuita
+
 ---
 
 # 3. Microsoft Copilot
@@ -61,6 +63,8 @@ Puede ayudar a:
 - Apoyar tareas de productividad.
 - Trabajar en algunos entornos de Microsoft.
 - Generar ideas y explicaciones.
+
+NOTA: Cuando se tienen cuentas asociadas a microsoft, como las que son de uso institucional podemos hacer uso de esta herramienta en su version gratuita 
 
 ---
 
@@ -211,6 +215,8 @@ No usar imágenes generadas para engañar, suplantar personas o crear contenido 
 | Grammarly | Escritura | Corrección de textos |
 | DeepL | Traducción | Apoyo en inglés |
 | Notion AI | Organización | Resúmenes y planeación |
+
+NOTA:Estas no son las unicas herramientas de Inteligencia Artificial que hay en el mercado, son muchas, aqui solo expongo algunas cuantas; pero no quiere decir que sean las mejores o las que mas se usan.
 
 ---
 
