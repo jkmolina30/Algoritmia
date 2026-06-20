@@ -464,9 +464,9 @@ Los operadores lógicos permiten combinar condiciones.
 
 | Operador en lógica | Java | Significado |
 |---|---|---|
-| Y | && | Ambas condiciones deben cumplirse |
-| O | || | Al menos una condición debe cumplirse |
-| NO | ! | Niega una condición |
+| Y | "&&" | Ambas condiciones deben cumplirse |
+| O | "||" | Al menos una condición debe cumplirse |
+| NO | "!" | Niega una condición |
 
 Ejemplo:
 
