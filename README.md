@@ -642,8 +642,9 @@ Durante el curso se promoverán las siguientes buenas prácticas:
 
 ### Juan Carlos Molina Lozano
 * Ingeniero de Sistemas, Especialista en Gestión y Seguridad de Bases de Datos y estudiante de tercer semestre de la Maestría en Ciencia de Datos.
-* Cuenta con experiencia profesional como desarrollador de software independiente y como Administrador de Bases de Datos, participando en proyectos de desarrollo, administración, optimización y aseguramiento de la información.
+* Cuenta con experiencia profesional como desarrollador de software independiente y como Administrador de Bases de Datos, participando en proyectos de desarrollo, administración, optimización y aseguramiento de la información; cutilizando herramientas como MySQL, DB2, Oracle y SQL Server
 * Ademas cuenta con experiencia en el sector de educación, se ha desempeñado como docente de informatica en varios establecimientos de educación basica, media y universitaria
+* Cuenta con experiencia en el analisis de datos, desde lo que es la Extracción, la Transformación y Presentación de los Datos. Empleando herramientas como Looker Studio, Google Sheets, PowerBI, Python y R; estos ultimos utilizados en el analisis con modelos de Machine Learning
 
 ### Certificaciones
 
